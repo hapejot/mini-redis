@@ -1,5 +1,21 @@
 # mini-redis
 
+
+```graphviz
+digraph GRAPH_0 {
+  edge [ arrowhead=open ];
+  graph [ rankdir=LR ];
+  node [
+    fillcolor=white,
+    fontsize=11,
+    shape=box,
+    style=filled ];
+
+  Client -> Server [ arrowhead=open, arrowtail=open, color="#000000" ]
+
+}
+```
+
 `mini-redis` is an incomplete, idiomatic implementation of a
 [Redis](https://redis.io) client and server built with
 [Tokio](https://tokio.rs).
